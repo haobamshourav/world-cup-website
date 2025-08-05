@@ -170,6 +170,7 @@ img {
     .hero {
         flex-direction: column;
         text-align: center;
+        border-radius: 10px;
     }
 
     .hero-left {
