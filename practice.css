@@ -1,0 +1,68 @@
+.box-sizing {
+    background-color: purple;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* display: grid;
+    place-content: center; */
+    /* position: relative; */
+}
+
+.content-box {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    box-sizing: content-box;
+    padding: 100px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.border-box {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    padding: 100px;
+    box-sizing: border-box;
+
+}
+
+.green {
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    /* display: grid;
+    place-content: center; */
+    position: relative;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
