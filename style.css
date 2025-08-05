@@ -97,6 +97,7 @@ img {
 
 .upcoming-right .card {
     border: 1px solid #E8E8E8;
+    border-radius: 10px;
 }
 
 .upcoming-right .card img {
